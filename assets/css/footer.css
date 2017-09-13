@@ -1,0 +1,14 @@
+/* Footer */
+
+footer {
+    padding: 50px 0;
+    color: white;
+}
+
+
+#to-top {
+    display: none;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}

@@ -1,0 +1,18 @@
+/* Portfolio */
+
+.events {
+    padding: 50px 0;
+
+}
+
+.events-item {
+    margin-bottom: 30px;
+}
+
+.img-events {
+    margin: 0 auto;
+}
+
+.img-events:hover {
+    opacity: 0.8;
+}
