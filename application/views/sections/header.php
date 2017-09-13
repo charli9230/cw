@@ -22,6 +22,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	
     <link href="<?php echo asset_url();?>css/stylish-portfolio.css" rel="stylesheet">
     <link href="<?php echo asset_url();?>css/ministries.css" rel="stylesheet">
+    <link href="<?php echo asset_url();?>css/scroll-button-intro.css" rel="stylesheet">
 
 </head>
 <body id="top">
