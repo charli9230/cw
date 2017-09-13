@@ -16,6 +16,8 @@ class Home extends CI_Controller {
         $this->load->view('sections/nav');
         $this->load->view('sections/about');
         //$this->load->view('sections/ministries');
+        //$this->load->view('sections/contacts');
+        $this->load->view('sections/map');
         $this->load->view('sections/footer');
     }
 

@@ -20,9 +20,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 	
-    <link href="<?php echo asset_url();?>css/stylish-portfolio.css" rel="stylesheet">
-    <link href="<?php echo asset_url();?>css/ministries.css" rel="stylesheet">
-    <link href="<?php echo asset_url();?>css/scroll-button-intro.css" rel="stylesheet">
+    <link href="<?php echo site_url();?>assets/css/stylish-portfolio.css" rel="stylesheet">
+    <link href="<?php echo site_url();?>assets/css/ministries.css" rel="stylesheet">
+    <link href="<?php echo site_url();?>assets/css/map.css" rel="stylesheet">
+    <link href="<?php echo site_url();?>assets/css/events.css" rel="stylesheet">
+    <link href="<?php echo site_url();?>assets/css/contacts.css" rel="stylesheet">
+    <link href="<?php echo site_url();?>assets/css/scroll-button-intro.css" rel="stylesheet">
 
 </head>
 <body id="top">
