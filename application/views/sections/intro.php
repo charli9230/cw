@@ -12,6 +12,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
     </div>
 
+    <section id="section07" class="demo">
+        <h1>Scroll Down</h1>
+        <a href="#about"><span></span><span></span><span></span>Scroll</a>
+    </section>
+
+
+
     <!-- Indicators -->
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -40,3 +47,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </a>
 
 </header>
+
+<script>
+    $(function() {
+        $('a[href*=#]').on('click', function(e) {
+            e.preventDefault();
+            $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+        });
+    });
+</script>
+

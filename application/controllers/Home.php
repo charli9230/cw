@@ -12,14 +12,16 @@ class Home extends CI_Controller {
     public function home()
     {
         $this->load->view('sections/header');
+        $this->load->view('sections/intro');
         $this->load->view('sections/nav');
         $this->load->view('sections/about');
+        $this->load->view('sections/ministries');
         $this->load->view('sections/footer');
     }
 
 
 
-
+/*
 
 	public function index()
 	{
@@ -80,7 +82,7 @@ class Home extends CI_Controller {
 		$this->load->view('common/header_worship');
 		$this->load->view('youth_ministry');
 		$this->load->view('common/footer_worship');
-	}
+	}*/
 	
 }
 
