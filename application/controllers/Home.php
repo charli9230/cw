@@ -9,6 +9,18 @@ class Home extends CI_Controller {
                 // Your own constructor code
         }
 
+    public function home()
+    {
+        $this->load->view('sections/header');
+        $this->load->view('sections/nav');
+        $this->load->view('sections/about');
+        $this->load->view('sections/footer');
+    }
+
+
+
+
+
 	public function index()
 	{
 		$this->load->view('common/header');
