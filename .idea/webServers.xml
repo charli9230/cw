@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2cef69fd-b02b-4310-b99c-043918830bb2" name="2017.churchonthewaype.co.za" url="http://ftp.churchonthewaype.co.za">
+        <fileTransfer host="ftp.churchonthewaype.co.za" port="21" rootFolder="/public_html/2017">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

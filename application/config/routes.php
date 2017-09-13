@@ -50,6 +50,34 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 $route['default_controller'] = 'home';
-$route['assets/(:any)'] = 'assets/$1';
 $route['404_override'] = '';
-$route['translate_uri_dashes'] = FALSE; 
+$route['translate_uri_dashes'] = FALSE;
+
+#Home
+$route['home'] = 'home';
+$route['home/(:any)'] = 'home';
+
+
+
+#Ministries
+$route['dance'] = 'ministries/dance';
+$route['multimedia'] = 'ministries/multimedia';
+$route['prayer'] = 'ministries/prayer';
+$route['worship'] = 'ministries/worship';
+$route['hospitality'] = 'ministries/hospitality';
+$route['salt'] = 'ministries/salt';
+$route['men'] = 'ministries/men';
+$route['women'] = 'ministries/women';
+
+
+#Schools
+$route['cls'] = 'school/cls';
+$route['bible'] = 'school/bible';
+
+
+
+
+
+
+
+
