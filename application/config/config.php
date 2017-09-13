@@ -23,7 +23,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://2017.churchonthewaype.co.za/';
+/*http://localhost/cw/*/
+
+$config['base_url'] = 'http://localhost/cw/';
+//$config['base_url'] = 'http://2017.churchonthewaype.co.za/';
 
 /*
 |--------------------------------------------------------------------------
