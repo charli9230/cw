@@ -26,7 +26,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <link href="<?php echo site_url();?>assets/css/events.css" rel="stylesheet">
     <link href="<?php echo site_url();?>assets/css/contacts.css" rel="stylesheet">
     <link href="<?php echo site_url();?>assets/css/scroll-button-intro.css" rel="stylesheet">
-
+    <link href="<?php echo site_url();?>assets/css/style.css" rel="stylesheet">
 </head>
 <body id="top">
  

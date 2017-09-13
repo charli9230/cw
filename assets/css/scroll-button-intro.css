@@ -16,13 +16,13 @@
 }
 #scroll-button-intro h1 {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     z-index: 2;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    color: #fff;
-    font : normal 300 64px/1 'Josefin Sans', sans-serif;
+    color: #ffffff;
+    font : normal 300 80px/1 'Josefin Sans', sans-serif;
     text-align: center;
     white-space: nowrap;
 }
@@ -71,8 +71,8 @@
 }
 .scroll-button-intro a {
     position: absolute;
-    bottom: 20px;
-    left: 50%;
+    bottom: 100px;
+    left: 49%;
     z-index: 2;
     display: inline-block;
     -webkit-transform: translate(0, -50%);
