@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/cw';
+$config['base_url'] = 'http://2017.churchonthewaype.co.za/';
 
 /*
 |--------------------------------------------------------------------------
@@ -35,7 +35,7 @@ $config['base_url'] = 'http://localhost/cw';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------
@@ -324,7 +324,7 @@ $config['cache_query_string'] = FALSE;
 | https://codeigniter.com/user_guide/libraries/encryption.html
 |
 */
-$config['encryption_key'] = 'H34uxlo2E0gzXzWGkv9BHcHliLBKp0uS';
+$config['encryption_key'] = '';
 
 /*
 |--------------------------------------------------------------------------
@@ -377,11 +377,10 @@ $config['encryption_key'] = 'H34uxlo2E0gzXzWGkv9BHcHliLBKp0uS';
 | except for 'cookie_prefix' and 'cookie_httponly', which are ignored here.
 |
 */
-
-$config['sess_driver'] = 'database';
+$config['sess_driver'] = 'files';
 $config['sess_cookie_name'] = 'ci_session';
 $config['sess_expiration'] = 7200;
-$config['sess_save_path'] = 'ci_sessions';//its your table name name
+$config['sess_save_path'] = NULL;
 $config['sess_match_ip'] = FALSE;
 $config['sess_time_to_update'] = 300;
 $config['sess_regenerate_destroy'] = FALSE;
