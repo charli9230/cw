@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+.overlay { 
+  color:#fff;
+  position:absolute;
+  z-index:12;
+  top:50%;
+  left:0;
+  width:100%;
+  text-align:center;
+}
+
+#about p{
+	font-size: 20px;
+}
+header h1{
+	color: #ffffff;
+}
+
+/* Center the navbar item */
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+nav{
+	font-family:  'Oswald', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	background-color: #212121;
+}
+
+
+
+
+section h2{
+	font-family: 'Alfa Slab One', cursive;
+}
+
+#about{
+	background-color: #212121;
+}
+#portfolio{
+	background-color: #363637;
+}
+
+#events{
+background-color: #363637;
+}
