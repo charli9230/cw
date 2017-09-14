@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="20e38feb-d53a-46a5-8e22-c4c3f369304f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/helpers/index.html" afterPath="$PROJECT_DIR$/application/helpers/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -375,11 +374,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505343961396</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="m107">
+      <created>1505417345642</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1505417345642</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32128000" />
+    <option name="totallyTimeSpent" value="32149000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -427,7 +433,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="changes made on campus in R134-05" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes made on campus in R134-05" />
+    <MESSAGE value="m107" />
+    <option name="LAST_COMMIT_MESSAGE" value="m107" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
